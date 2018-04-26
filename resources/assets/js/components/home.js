@@ -3,5 +3,14 @@ Vue.component('home', {
 
     mounted() {
         //
+    },
+
+    computed:{
+
+        upperName(){
+
+            return this.user.name.toUpperCase();
+        }
     }
+
 });

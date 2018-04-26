@@ -11,6 +11,8 @@
 
                     <div class="card-body">
                         {{__('Your application\'s dashboard.')}}
+
+                        @{{ upperName }}
                     </div>
                 </div>
             </div>

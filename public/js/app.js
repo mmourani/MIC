@@ -67706,7 +67706,16 @@ Vue.component('home', {
 
     mounted: function mounted() {
         //
+    },
+
+
+    computed: {
+        upperName: function upperName() {
+
+            return this.user.name.toUpperCase();
+        }
     }
+
 });
 
 /***/ }),
